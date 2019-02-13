@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+       <script  src="js/jquery-2.2.1.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script async src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script async>
+         $( function() {
+             $( "#dialog" ).dialog({
+                 autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                 },
+                 hide: {
+                     effect: "explode",
+                     duration: 1000
+                }
+             });
+
+            $( "#opener" ).on( "click", function() {
+                 $( "#dialog" ).dialog( "open" );
+             });
+         } );
+    </script>
+
+</head>
+<body>
+<header>
+    <div id="dialog" title="Basic dialog">
+        <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div>
+    <div class="container border">
+        <a href="#" class="btn"><img src="imeg/Logo.png" alt="" /></a>
+        <a href="#" class="btn_red"><i class="fas fa-user-plus"></i>SIGN UP NOW</a>
+        <a href="#" class="btn_grey" id="opener"><i class="fas fa-user"></i><span>login</span></a>
+        <a href="#" class="btn_dark_grey"><i class="fas fa-shopping-cart"></i><span>ONLINE STORE</span></a>
+            <form class="form"  action="" name="search" method="post">
+                <input type="text" placeholder="SEARCH" class="text">
+                <button type="submit" class="search"></button>
+                <img src="imeg/search.png" alt="btn_search" class="magnifier">
+            </form>
+    </div>
+           <div class="block">
+        <ul>
+            <li class="menu">
+                <a href="#"> WORKOUTS</a>
+            </li>
+            <li class="menu">
+                <a href="#">NUTRITION</a>
+            </li>
+            <li class="menu">
+                <a href="#">OUR TRAINERS</a>
+            </li>
+            <li class="menu">
+                <a href="#">COMPETITION PREP</a>
+            </li>
+            <li class="menu">
+                <a href="#">TRAINING</a>
+            </li>
+            <li class="menu">
+                <a href="#">SUCCESS STORIES</a>
+            </li>
+            <li class="menu">
+                <a href="#">E-BOOKS</a>
+            </li>
+
+        </ul>
+            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+           </div>
+<!--<div class="container_1">-->
+    <!--<div class="left_block"></div>-->
+    <!--<div class="right_block"></div>-->
+    <!--</div>-->
+</header>
+<!--<div>-->
+<!--<h3 class="trainers">OUR TRAINERS</h3>-->
+<!--</div>-->
+<div class="imeg">
+    <span class="background"><img src="imeg/Photo.jpg" alt="" /></span>
+</div>
+<h3 class="SUCCESS">SUCCESS STORIES</h3>
+<div class="section">
+    <div class="owl-carousel">
+        <div class="photo">
+            <img class="men" src="imeg/photo_men.jpg"style="float: left; width: 40%;"/>
+            <h3 class="brandon">Brandon Gerdes</h3>
+            <p class="Stan_McQuay">“I linked up with Stan McQuay in the fall of 2013. At this point I had some small
+                successes and wins in powerlifting and I placed well in a few bodybuilding shows
+                but had yet to win one. Since linking up with Stan I have had 4 class wins, 1 overall win,
+                and brought my best physique to the USA stage... Stan has been that guy in that he respects
+                my desire to be very hands on with my prep and that I will probably annoy him with wanting
+                to know "why" we do certain things...instead of just asking what to do. I couldn't be happier
+                being part of Physique Inc and I look forward to continue learning from Stan and all the
+                other people on the coaching staff!”</p>
+        </div>
+        <div>  </div>
+        <div>  </div>
+        <div>  </div>
+        <div>  </div>
+        <div>  </div>
+        <div>  </div>
+    </div>
+</div>
+</body>
+</html>
