@@ -58,6 +58,7 @@
     .btn_red,.btn_dark_grey,.btn_grey{
         float: none;
         width: 70%;
+        margin-bottom: 8px;
 
 
 }  @media only screen and (max-width: 980px) {
@@ -72,5 +73,40 @@
         float: none;
         width: 50%;
         margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .SUCCESS, .section, .owl-carousel, .photo, .brandon, .Stan_McQuay{
+        float: left;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .SUCCESS, .section, .owl-carousel, .photo, .brandon, .Stan_McQuay {
+        float: left;
+        max-width: 30%;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .SUCCESS {
+       line-height: 20px;
+        padding: 10px 200px;
+        font-size: 15px;
+        margin-top:150px;
+    }
+}
+@media only screen and (max-width:980px) {
+    .block{
+        max-width:50%;
+        padding-top:none;
+
+    }
+}
+@media only screen and (max-width:980px) {
+    .Stan_McQuay{
+        max-width: 30%;
+        font-size: 10px;
+        padding: 5px 70px 50px 100px;;
     }
 }

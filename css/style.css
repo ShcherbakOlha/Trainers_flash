@@ -31,14 +31,14 @@
 
 }
 header{
-    background-color: rgba(0,0,0,0.65);
+    /*background-color: rgba(0,0,0,0.65);*/
     padding-top: 25px;
     padding-bottom: 12px;
     position: absolute;
     width: 100%;
 }
 .container{
-    max-width: 1350px;
+    max-width: 1340px;
     margin: auto;
 
 }
@@ -166,7 +166,7 @@ i.fa-user,.fa-shopping-cart,.fa-user-plus{
     padding-right: 15px;
 }
 .menu{
-    max-width: 1350px;
+    max-width: 1140px;
     float: left;
     display: inline-block;
 }
@@ -265,6 +265,8 @@ ul:after{
     /*position: relative;*/
     /*z-index: 1000;*/
 /*}*/
+
+/*padding: 0 515px 85px;*/
 .background{
     /*display: inline-block;*/
     /*position: absolute;*/
@@ -273,31 +275,28 @@ ul:after{
     transform: translateX(-50%);
     /*white-space: nowrap;*/
     width: 100%;
-
 }
 .background img{
     width: 100%;
 }
-/*}*/
-/*.trainers{*/
-    /*font-family: 'BebasNeueRegular';*/
-    /*color: white;*/
-    /*margin-top:150px;*/
-    /*font-size: 40px;*/
-    /*border-bottom: solid 4px #ff0000;*/
-    /*padding: 0 515px 85px;*/
-
-/*}*/
 .section{
-
     max-width: 1200px;
-    margin-right: 60px;
-    margin-top: 25px;
-    margin-left: 60px;
+    margin: 25px 60px 100px 60px;
     box-shadow: 0 0 5px 3px rgba(221, 221, 221, 1);
-    margin-bottom: 100px;
-
 }
+.our_trainers{
+    max-width: 100%;
+    margin: auto;
+    border-bottom: solid 4px #ff0000
+}
+h1{
+    text-align: center;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+}
+
 .brandon{
     font-family: 'BebasNeueRegular'
     float: right;
@@ -371,8 +370,97 @@ ul:after{
     left: 1210px;
     top: 45%;
 }
+.ui-dialog{
+    width: 100%!important;
+    max-width: 750px!important;
+    padding: 0px;
+    border: 0px;
 
-    /*float: right;*width: ;
+}
+.ui-dialog .ui-dialog-title{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    line-height: 100px;
+    /*background-color: black;*/
+    color: #FFF;
+    font-size: 24px;
+}
+.ui-corner-all{
+    border-radius: 0 0 10px 10px;
+}
+.ui-draggable-handle{
+    border-radius: 0px;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    display: none;
+}
+.ui-dialog .ui-dialog-titlebar{
+    background-color: black;
+}
+.ui-widget-header, .ui-widget.ui-widget-content{
+    border: none;
+}
+.ui-dialog .ui-dialog-content{
+    padding-top: 40px;
+    padding-bottom: 166px;
+}
+.dialog-password {
+    width: 90%;
+    margin: auto;
+}
+.dialog-password label {
+    width: 25%;
+    margin-right: 15px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.dialog-password input {
+    width: 70%;
+    float: right;
+    line-height: 60px;
+    margin-bottom: 49px;
+}
+.dialog-password .reset{
+    display: block;
+    padding: 19px 140px;
+    margin-left:111px;
+    margin-bottom:30px;
+    font-size:24px;
+    background: #d3d3d3;
+    border: none;
+    border-radius:3px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.dialog-password .loging{
+    display: block;
+    padding: 19px 80px;
+    margin-left:111px;
+    font-size:24px;
+    background:#627ac9;
+    border: none;
+    color: white;
+    border-radius:3px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.loging i{
+    margin-right: 15px;
+}
+.choice{
+    margin-bottom:30px;
+    margin-left:360px;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size: 24px;
+}
+
+
+/*float: right;*width: ;*/
 /*}*/
     /*max-width: 1170px;*/0
     /*margin: auto;*/
